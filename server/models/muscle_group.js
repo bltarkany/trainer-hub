@@ -7,14 +7,8 @@ const muscleGroupSchema = new Schema(
       required: true,
       trim: true,
     },
-    muscle_group_description: {
-      type: String,
-      required: true,
-      trim: true,
-    },
     muscle_group_image: {
       type: String,
-      required: true,
     },
   },
   {
