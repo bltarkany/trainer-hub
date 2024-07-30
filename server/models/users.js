@@ -1,6 +1,7 @@
 const { Schema, model } = require('mongoose');
 const bcrypt = require('bcryptjs');
 const bodyStatsSchema = require('./body_stats');
+const trainerBioSchema = require('./trainer_bio');
 
 const userSchema = new Schema(
   {
@@ -46,6 +47,8 @@ const userSchema = new Schema(
     ],
     //   body stats schema - for tracking user progress
     bodyStats: bodyStatsSchema,
+    // trainer bio - for trainers
+    trainer_bio: trainerBioSchema,
     // users programs - for tracking user progress
     programs: [
       {
