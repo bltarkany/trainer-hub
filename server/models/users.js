@@ -38,7 +38,7 @@ const userSchema = new Schema(
       required: true,
       enum: ['client', 'trainer'],
     },
-    //   not sure if we need this - be used to connect trainer/user
+    //  be used to connect trainer/user
     savedTrainers: [
       {
         type: Schema.Types.ObjectId,
@@ -49,14 +49,14 @@ const userSchema = new Schema(
     bodyStats: bodyStatsSchema,
     // trainer bio - for trainers
     trainer_bio: trainerBioSchema,
-    // users programs - for tracking user progress
+    // clients programs - for tracking user progress
     programs: [
       {
         type: Schema.Types.ObjectId,
         ref: 'client_program',
       },
     ],
-    //   user workouts - for tracking user progress
+    //   user workouts - for tracking user progress?? can this be removed? use programs instead?
     workouts: [
       {
         type: Schema.Types.ObjectId,

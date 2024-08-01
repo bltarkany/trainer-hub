@@ -10,15 +10,6 @@ const programSchema = new Schema(
     program_type: {
       type: String,
       required: true,
-      enum: [
-        'strength',
-        'hypertrophy',
-        'endurance',
-        'power',
-        'weight_loss',
-        'weight_gain',
-        'maintenance',
-      ],
     },
     program_description: {
       type: String,
