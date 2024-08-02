@@ -12,4 +12,5 @@ connection.once('open', () => {
 connection.on('error', (err) => {
   console.log('MongoDB connection error: ', err);
 });
+
 module.exports = connection;
