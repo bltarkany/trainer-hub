@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Strength",
+        "description": "Training focused on increasing muscle strength and power."
+    },
+    {
+        "name": "Hypertrophy",
+        "description": "Training aimed at increasing muscle size and volume."
+    },
+    {
+        "name": "Endurance",
+        "description": "Training designed to improve stamina and cardiovascular health."
+    },
+    {
+        "name": "Power",
+        "description": "Training that combines strength and speed to enhance explosive movements."
+    },
+    {
+        "name": "Weight Loss",
+        "description": "Training and nutrition plans aimed at reducing body fat."
+    },
+    {
+        "name": "Weight Gain",
+        "description": "Training and nutrition plans aimed at increasing body mass."
+    },
+    {
+        "name": "Maintenance",
+        "description": "Training and nutrition plans aimed at maintaining current fitness levels and body composition."
+    },
+    {
+        "name": "Cardio",
+        "description": "Training focused on improving cardiovascular health and endurance."
+    },
+    {
+        "name": "HIIT",
+        "description": "High-Intensity Interval Training designed to burn fat and improve cardiovascular fitness."
+    }
+]
